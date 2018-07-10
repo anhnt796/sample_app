@@ -4,6 +4,8 @@ class StaticPagesController < ApplicationController
   def help; end
 
   def about
-    @about = "Ruby on Rails, Framgia Laboratory."
+    @about = t ".about_message"
   end
+
+  def contact; end
 end

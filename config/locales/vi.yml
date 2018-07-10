@@ -1,6 +1,27 @@
 vi:
-  home: "Trang chủ"
-  help: "Trợ giúp"
-  about: "Về chúng tôi"
+  login: "Đăng nhập"
+  news: "Tin tức"
   base_title: "Hướng dẫn ứng dụng mẫu Ruby on Rails"
   sample_app: "Ứng dụng mẫu"
+  signup: "Đăng ký"
+  static_pages:
+    home:
+      page_title: "Trang chủ"
+      welcome_message: "Chào mừng tới Ứng dụng mẫu"
+      home_link: "Hướng dẫn Ruby on Rails"
+      home_html: "Đây là trang chủ ứng dụng mẫu %{href}."
+      sign_up: "Đăng ký ngay!"
+    help:
+      page_title: "Trợ giúp"
+      help_link: "Rails Tutorial help page"
+      help_html: "Get help on the Ruby on Rails Tutorial at the %{href}."
+      book_link: "Ruby on Rails Tutorial book"
+      book_html: "To get help on this sample app, see the %{href}."
+    about:
+      page_title: "Về chúng tôi"
+      about_message: "Ruby on Rails, Framgia Laboratory."
+    contact:
+      page_title: "Liên hệ"
+      contact_link: "contact page"
+      contact_html: "Contact the Ruby on Rails Tutorial about the sample
+      app at the %{href}."
