@@ -25,3 +25,6 @@ vi:
       contact_link: "contact page"
       contact_html: "Contact the Ruby on Rails Tutorial about the sample
       app at the %{href}."
+  users:
+    new:
+      page_title: "Đăng ký"

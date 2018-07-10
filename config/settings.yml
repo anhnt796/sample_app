@@ -1,0 +1,9 @@
+name:
+  length:
+    MAXIMUM: 50
+email:
+  length:
+    MAXIMUM: 250
+password:
+  length:
+    MINIMUM: 6
