@@ -28,3 +28,10 @@ en:
   users:
     new:
       page_title: "Sign up"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirmation"
+      create: "Create my account"
+    show:
+      not_exists: "User not exists!"
