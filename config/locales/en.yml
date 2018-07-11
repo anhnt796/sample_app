@@ -1,6 +1,27 @@
 en:
-  home: "Home"
-  help: "Help"
-  about: "About"
+  login: "Log in"
+  news: "News"
   base_title: "Ruby on Rails Tutorial Sample App"
   sample_app: "Sample App"
+  signup: "Sign up"
+  static_pages:
+    home:
+      page_title: "Home"
+      welcome_message: "Welcome to the Sample App"
+      home_link: Ruby on Rails Tutorial
+      home_html: "This is the home page for the %{href} sample application."
+      sign_up: "Sign up now!"
+    help:
+      page_title: "Help"
+      help_link: "Rails Tutorial help page"
+      help_html: "Get help on the Ruby on Rails Tutorial at the %{href}."
+      book_link: "Ruby on Rails Tutorial book"
+      book_html: "To get help on this sample app, see the %{href}."
+    about:
+      page_title: "About"
+      about_message: "Ruby on Rails, Framgia Laboratory."
+    contact:
+      page_title: "Contact"
+      contact_link: "contact page"
+      contact_html: "Contact the Ruby on Rails Tutorial about the sample
+      app at the %{href}."
