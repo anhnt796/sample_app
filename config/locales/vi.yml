@@ -28,3 +28,24 @@ vi:
   users:
     new:
       page_title: "Đăng ký"
+      name: "Họ tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận lại mật khẩu"
+      create: "Tạo tài khoản"
+    show:
+      not_exists: "Người dùng không tồn tại!"
+  activerecord:
+    attributes:
+      user:
+        name: "Họ tên"
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              too_long: "quá dài (tối đa %{count} kí tự)"
+  shared:
+    error_messages:
+      error_count: "Biểu mẫu chứa %{count}."
+      error: "lỗi"
