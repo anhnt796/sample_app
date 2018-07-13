@@ -4,6 +4,11 @@ vi:
   base_title: "Hướng dẫn ứng dụng mẫu Ruby on Rails"
   sample_app: "Ứng dụng mẫu"
   signup: "Đăng ký"
+  user: "Người dùng"
+  profile: "Hồ sơ"
+  settings: "Cài đặt"
+  logout: "Đăng xuất"
+  account: "Tài khoản"
   static_pages:
     home:
       page_title: "Trang chủ"
@@ -49,3 +54,12 @@ vi:
     error_messages:
       error_count: "Biểu mẫu chứa %{count}."
       error: "lỗi"
+  sessions:
+    new:
+      page_title: "Đăng nhập"
+      login_button: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      new_user: "Người dùng mới? "
+    create:
+      invalid: "Kết hợp email/mật khẩu không hợp lệ"

@@ -4,6 +4,11 @@ en:
   base_title: "Ruby on Rails Tutorial Sample App"
   sample_app: "Sample App"
   signup: "Sign up"
+  user: "Users"
+  profile: "Profile"
+  settings: "Settings"
+  logout: "Log out"
+  account: "Account"
   static_pages:
     home:
       page_title: "Home"
@@ -35,3 +40,16 @@ en:
       create: "Create my account"
     show:
       not_exists: "User not exists!"
+  shared:
+    error_messages:
+      error_count: "The form contains %{count}."
+      error: "error"
+  sessions:
+    new:
+      page_title: "Login"
+      login_button: "Login"
+      email: "Email"
+      password: "Password"
+      new_user: "New user? "
+    create:
+      invalid: "Invalid email/password combination"
