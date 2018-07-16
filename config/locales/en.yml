@@ -10,6 +10,7 @@ en:
   logout: "Log out"
   account: "Account"
   please_login: "Please log in."
+  password_expired: "Password reset has expired."
   static_pages:
     home:
       page_title: "Home"
@@ -65,6 +66,7 @@ en:
       password: "Password"
       new_user: "New user? "
       remember_me: "Remember me on this computer"
+      forgot_password: "(forgot_password)"
     create:
       invalid: "Invalid email/password combination"
       not_activated: "Account not activated.
@@ -76,6 +78,26 @@ en:
         Click on the link below to activate your account:"
       activate: "Activate"
       email_greeting: "Hi %{name}, "
+    password_reset:
+      subject: "Password reset"
+      reset_message_1: "To reset your password click the link below:"
+      reset_message_2: "This link will expire in two hours."
+      reset_message_3: "If you did not request your password to be reset,
+        please ignore this email and your password will stay as it is."
+      reset: "Reset password"
   account_activations:
     activated: "Account activated!"
     invalid: "Invalid activation link"
+  password_resets:
+    new:
+      page_title: "Forgot password"
+      submit_button: "Submit"
+    create:
+      email_sent: "Email sent with password reset instructions"
+      email_not_found: "Email address not found"
+    edit:
+      page_title: "Reset password"
+      submit_button: "Update password"
+    update:
+      cant_blank: "can't be empty"
+      has_reset: "Password has been reset."
