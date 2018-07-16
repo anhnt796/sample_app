@@ -9,6 +9,7 @@ en:
   settings: "Settings"
   logout: "Log out"
   account: "Account"
+  please_login: "Please log in."
   static_pages:
     home:
       page_title: "Home"
@@ -31,15 +32,26 @@ en:
       contact_html: "Contact the Ruby on Rails Tutorial about the sample
       app at the %{href}."
   users:
+    user:
+      delete: "delete"
+      confirm: "You sure?"
+    index:
+      page_title: "All users"
     new:
       page_title: "Sign up"
-      name: "Name"
-      email: "Email"
-      password: "Password"
-      password_confirmation: "Confirmation"
       create: "Create my account"
     show:
       not_exists: "User not exists!"
+    edit:
+      page_title: "Edit user"
+      update_profile: "Update your profile"
+      save_changes: "Save changes"
+    create:
+      welcome_message: "Welcome to the Sample App"
+    update:
+      profile_updated: "Profile updated"
+    destroy:
+      user_deleted: "User deleted"
   shared:
     error_messages:
       error_count: "The form contains %{count}."

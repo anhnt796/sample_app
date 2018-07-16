@@ -9,6 +9,7 @@ vi:
   settings: "Cài đặt"
   logout: "Đăng xuất"
   account: "Tài khoản"
+  please_login: "Vui lòng đăng nhập."
   static_pages:
     home:
       page_title: "Trang chủ"
@@ -31,19 +32,33 @@ vi:
       contact_html: "Contact the Ruby on Rails Tutorial about the sample
       app at the %{href}."
   users:
+    user:
+      delete: "xóa"
+      confirm: "Bạn chắc chắn chứ?"
+    index:
+      page_title: "Tất cả người dùng"
     new:
       page_title: "Đăng ký"
-      name: "Họ tên"
-      email: "Email"
-      password: "Mật khẩu"
-      password_confirmation: "Xác nhận lại mật khẩu"
       create: "Tạo tài khoản"
     show:
       not_exists: "Người dùng không tồn tại!"
+    edit:
+      page_title: "Chỉnh sửa người dùng"
+      update_profile: "Cập nhật hồ sơ của bạn"
+      save_changes: "Lưu thay đổi"
+    create:
+      welcome_message: "Chào mừng tới Ứng dụng mẫu"
+    update:
+      profile_updated: "Hồ sơ đã cập nhật"
+    destroy:
+      user_deleted: "Người dùng đã bị xóa"
   activerecord:
     attributes:
       user:
         name: "Họ tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận lại mật khẩu"
     errors:
       models:
         user:
@@ -64,3 +79,6 @@ vi:
       remember_me: "Ghi nhớ tôi trên máy tính này"
     create:
       invalid: "Kết hợp email/mật khẩu không hợp lệ"
+  will_paginate:
+    previous_label: "Trang trước"
+    next_label: "Trang sau"
