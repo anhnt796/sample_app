@@ -14,10 +14,6 @@ en:
   static_pages:
     home:
       page_title: "Home"
-      welcome_message: "Welcome to the Sample App"
-      home_link: Ruby on Rails Tutorial
-      home_html: "This is the home page for the %{href} sample application."
-      sign_up: "Sign up now!"
     help:
       page_title: "Help"
       help_link: "Rails Tutorial help page"
@@ -43,6 +39,7 @@ en:
       create: "Create my account"
     show:
       not_exists: "User not exists!"
+      micropost_number: "Microposts (%{number})"
     edit:
       page_title: "Edit user"
       update_profile: "Update your profile"
@@ -58,6 +55,20 @@ en:
     error_messages:
       error_count: "The form contains %{count}."
       error: "error"
+    homepage:
+      page_title: "Home"
+      welcome_message: "Welcome to the Sample App"
+      home_link: Ruby on Rails Tutorial
+      home_html: "This is the home page for the %{href} sample application."
+      sign_up: "Sign up now!"
+    user_homepage:
+      feed: "Micropost Feed"
+    user_info:
+      view_profile: "view my profile"
+      micropost: "micropost"
+    micropost_form:
+      compose_new: "Compose new micropost..."
+      post: "Post"
   sessions:
     new:
       page_title: "Login"
@@ -101,3 +112,14 @@ en:
     update:
       cant_blank: "can't be empty"
       has_reset: "Password has been reset."
+  microposts:
+    timestamp: Posted %{time} ago.
+    delete: "delete"
+    confirm: "You sure?"
+    picture:
+      too_high: should be less than %{size}MB
+      alert: Maximum file size is %{size}MB. Please choose a smaller file.
+    create:
+      micropost_created: "Micropost created!"
+    destroy:
+      micropost_deleted: "Micropost deleted!"

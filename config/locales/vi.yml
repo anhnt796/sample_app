@@ -11,27 +11,65 @@ vi:
   account: "Tài khoản"
   please_login: "Vui lòng đăng nhập."
   password_expired: "Đặt lại mật khẩu đã hết hạn."
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: khoảng 1 giờ
+        other: khoảng %{count} giờ
+      about_x_months:
+        one: khoảng 1 tháng
+        other: khoảng %{count} tháng
+      about_x_years:
+        one: khoảng 1 năm
+        other: khoảng %{count} năm
+      almost_x_years:
+        one: gần 1 năm
+        other: gần %{count} năm
+      half_a_minute: 30 giây
+      less_than_x_minutes:
+        one: chưa tới 1 phút
+        other: chưa tới %{count} phút
+      less_than_x_seconds:
+        one: chưa tới 1 giây
+        other: chưa tới %{count} giây
+      over_x_years:
+        one: hơn 1 năm
+        other: hơn %{count} năm
+      x_days:
+        one: 1 ngày
+        other: "%{count} ngày"
+      x_minutes:
+        one: 1 phút
+        other: "%{count} phút"
+      x_months:
+        one: 1 tháng
+        other: "%{count} tháng"
+      x_seconds:
+        one: 1 giây
+        other: "%{count} giây"
+    prompts:
+      day: Ngày
+      hour: Giờ
+      minute: Phút
+      month: Tháng
+      second: Giây
+      year: Năm
   static_pages:
     home:
       page_title: "Trang chủ"
-      welcome_message: "Chào mừng tới Ứng dụng mẫu"
-      home_link: "Hướng dẫn Ruby on Rails"
-      home_html: "Đây là trang chủ ứng dụng mẫu %{href}."
-      sign_up: "Đăng ký ngay!"
     help:
       page_title: "Trợ giúp"
-      help_link: "Rails Tutorial help page"
-      help_html: "Get help on the Ruby on Rails Tutorial at the %{href}."
-      book_link: "Ruby on Rails Tutorial book"
-      book_html: "To get help on this sample app, see the %{href}."
+      help_link: "Trang hướng dẫn Rails Tutorial"
+      help_html: "Nhận trợ giúp hướng dẫn Ruby on Rails tại %{href}."
+      book_link: "Sách hướng dẫn Ruby on Rails Tutorial"
+      book_html: "Để nhận trợ giúp ứng dụng mẫu, xem %{href}."
     about:
       page_title: "Về chúng tôi"
       about_message: "Ruby on Rails, Framgia Laboratory."
     contact:
       page_title: "Liên hệ"
-      contact_link: "contact page"
-      contact_html: "Contact the Ruby on Rails Tutorial about the sample
-      app at the %{href}."
+      contact_link: "Trang liên hệ"
+      contact_html: "Liên hệ hướng dẫn Ruby on Rails về ứng dụng mẫu tại %{href}."
   users:
     user:
       delete: "xóa"
@@ -43,6 +81,7 @@ vi:
       create: "Tạo tài khoản"
     show:
       not_exists: "Người dùng không tồn tại!"
+      micropost_number: "Microposts (%{number})"
     edit:
       page_title: "Chỉnh sửa người dùng"
       update_profile: "Cập nhật hồ sơ của bạn"
@@ -61,6 +100,8 @@ vi:
         email: "Email"
         password: "Mật khẩu"
         password_confirmation: "Xác nhận lại mật khẩu"
+      micropost:
+        content: "Nội dung"
     errors:
       models:
         user:
@@ -73,10 +114,29 @@ vi:
             password:
               blank: "không được để trắng"
               too_short: "quá ngắn (tối thiểu %{count} kí tự)"
+        micropost:
+          attributes:
+            content:
+              blank: "không được để trắng"
+              too_long: "quá dài (tối đa %{count} kí tự)"
   shared:
     error_messages:
       error_count: "Biểu mẫu chứa %{count}."
       error: "lỗi"
+    homepage:
+      page_title: "Trang chủ"
+      welcome_message: "Chào mừng tới Ứng dụng mẫu"
+      home_link: "Hướng dẫn Ruby on Rails"
+      home_html: "Đây là trang chủ ứng dụng mẫu %{href}."
+      sign_up: "Đăng ký ngay!"
+    user_homepage:
+      feed: "Nạp Micropost"
+    user_info:
+      view_profile: "xem hồ sơ của tôi"
+      micropost: "micropost"
+    micropost_form:
+      compose_new: "Soạn micropost mới..."
+      post: "Đăng"
   sessions:
     new:
       page_title: "Đăng nhập"
@@ -123,3 +183,14 @@ vi:
     update:
       cant_blank: "không được để trống"
       has_reset: "Mật khẩu đã được đặt lại."
+  microposts:
+    timestamp: Đã đăng %{time} trước.
+    delete: "xóa"
+    confirm: "Bạn chắc chắn chứ?"
+    picture:
+      too_high: phải nhỏ hơn %{size}MB
+      alert: Kích thước tệp tối đa là %{size}MB. Vui lòng chọn một tệp nhỏ hơn.
+    create:
+      micropost_created: "Đã tạo micropost!"
+    destroy:
+      micropost_deleted: "Đã xóa micropost!"

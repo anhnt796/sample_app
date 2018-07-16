@@ -1,4 +1,7 @@
 USER_PER_PAGE: 10
+MICROPOST_PER_PAGE: 10
+PICTURE_SIZE: 400
+PICTURE_ACCEPT: "image/jpeg,image/gif,image/png"
 name:
   length:
     MAXIMUM: 50
@@ -16,3 +19,10 @@ gravatar:
     SIZE: 80
   list:
     SIZE: 50
+micropost:
+  content:
+    length:
+      MAXIMUM: 140
+picture:
+  size:
+    MAXIMUM: 5
