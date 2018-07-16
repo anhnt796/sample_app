@@ -48,6 +48,7 @@ vi:
       save_changes: "Lưu thay đổi"
     create:
       welcome_message: "Chào mừng tới Ứng dụng mẫu"
+      check_email: "Vui lòng kiểm tra email để kích hoạt tài khoản."
     update:
       profile_updated: "Hồ sơ đã cập nhật"
     destroy:
@@ -79,6 +80,18 @@ vi:
       remember_me: "Ghi nhớ tôi trên máy tính này"
     create:
       invalid: "Kết hợp email/mật khẩu không hợp lệ"
+      not_activated: "Tài khoản không được kích hoạt.
+         Kiểm tra email của bạn để biết liên kết kích hoạt."
+  user_mailer:
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+      welcome_message: "Chào mừng tới Ứng dụng mẫu!
+        Nhấp vào liên kết dưới đây để kích hoạt tài khoản:"
+      activate: "Kích hoạt"
+      email_greeting: "Chào %{name}, "
+  account_activations:
+    activated: "Đã kích hoạt tài khoản!"
+    invalid: "Liên kết kích hoạt không hợp lệ"
   will_paginate:
     previous_label: "Trang trước"
     next_label: "Trang sau"
