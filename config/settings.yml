@@ -8,6 +8,9 @@ email:
 password:
   length:
     MINIMUM: 6
+  expired:
+    time:
+      HOUR: 2
 gravatar:
   user:
     SIZE: 80

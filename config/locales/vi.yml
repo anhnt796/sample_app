@@ -10,6 +10,7 @@ vi:
   logout: "Đăng xuất"
   account: "Tài khoản"
   please_login: "Vui lòng đăng nhập."
+  password_expired: "Đặt lại mật khẩu đã hết hạn."
   static_pages:
     home:
       page_title: "Trang chủ"
@@ -66,6 +67,12 @@ vi:
           attributes:
             name:
               too_long: "quá dài (tối đa %{count} kí tự)"
+              blank: "không được để trắng"
+            email:
+              blank: "không được để trắng"
+            password:
+              blank: "không được để trắng"
+              too_short: "quá ngắn (tối thiểu %{count} kí tự)"
   shared:
     error_messages:
       error_count: "Biểu mẫu chứa %{count}."
@@ -78,6 +85,7 @@ vi:
       password: "Mật khẩu"
       new_user: "Người dùng mới? "
       remember_me: "Ghi nhớ tôi trên máy tính này"
+      forgot_password: "(quên mật khẩu)"
     create:
       invalid: "Kết hợp email/mật khẩu không hợp lệ"
       not_activated: "Tài khoản không được kích hoạt.
@@ -89,9 +97,29 @@ vi:
         Nhấp vào liên kết dưới đây để kích hoạt tài khoản:"
       activate: "Kích hoạt"
       email_greeting: "Chào %{name}, "
+    password_reset:
+      subject: "Đặt lại mật khẩu"
+      reset_message_1: "Để đặt lại mật khẩu, hãy nhấp vào liên kết bên dưới:"
+      reset_message_2: "Liên kết này sẽ hết hạn sau hai giờ nữa."
+      reset_message_3: "Nếu bạn không yêu cầu đặt lại mật khẩu,
+        vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
+      reset: "Đặt lại mật khẩu"
   account_activations:
     activated: "Đã kích hoạt tài khoản!"
     invalid: "Liên kết kích hoạt không hợp lệ"
   will_paginate:
     previous_label: "Trang trước"
     next_label: "Trang sau"
+  password_resets:
+    new:
+      page_title: "Quên mật khẩu"
+      submit_button: "Xác nhận"
+    create:
+      email_sent: "Email đã được gửi với hướng dẫn đặt lại mật khẩu"
+      email_not_found: "Không tìm thấy địa chỉ email"
+    edit:
+      page_title: "Quên mật khẩu"
+      submit_button: "Cập nhật mật khẩu"
+    update:
+      cant_blank: "không được để trống"
+      has_reset: "Mật khẩu đã được đặt lại."
