@@ -48,6 +48,7 @@ en:
       save_changes: "Save changes"
     create:
       welcome_message: "Welcome to the Sample App"
+      check_email: "Please check your email to activate your account."
     update:
       profile_updated: "Profile updated"
     destroy:
@@ -66,3 +67,15 @@ en:
       remember_me: "Remember me on this computer"
     create:
       invalid: "Invalid email/password combination"
+      not_activated: "Account not activated.
+        Check your email for the activation link."
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      welcome_message: "Welcome to the Sample App!
+        Click on the link below to activate your account:"
+      activate: "Activate"
+      email_greeting: "Hi %{name}, "
+  account_activations:
+    activated: "Account activated!"
+    invalid: "Invalid activation link"
