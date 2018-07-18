@@ -71,6 +71,14 @@ vi:
       contact_link: "Trang liên hệ"
       contact_html: "Liên hệ hướng dẫn Ruby on Rails về ứng dụng mẫu tại %{href}."
   users:
+    follow:
+      follow_button: "Theo dõi"
+    unfollow:
+      unfollow_button: "Hủy theo dõi"
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
     user:
       delete: "xóa"
       confirm: "Bạn chắc chắn chứ?"
@@ -137,6 +145,9 @@ vi:
     micropost_form:
       compose_new: "Soạn micropost mới..."
       post: "Đăng"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     new:
       page_title: "Đăng nhập"

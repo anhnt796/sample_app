@@ -29,6 +29,10 @@ en:
       contact_html: "Contact the Ruby on Rails Tutorial about the sample
       app at the %{href}."
   users:
+    follow:
+      follow_button: "Follow"
+    unfollow:
+      unfollow_button: "Unfollow"
     user:
       delete: "delete"
       confirm: "You sure?"
@@ -69,6 +73,9 @@ en:
     micropost_form:
       compose_new: "Compose new micropost..."
       post: "Post"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     new:
       page_title: "Login"
